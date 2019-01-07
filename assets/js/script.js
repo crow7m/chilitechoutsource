@@ -1813,10 +1813,13 @@
 
             if ((window.innerWidth >= 992) && (!$("body").hasClass("photography-home"))) {
                 smoothScrolling($("#navbar > ul > li > a[href^='#']"), $(".navigation-holder").innerHeight());
+                smoothScrolling($("#hero-actions  a[href^='#']"), 70);
+
             } else if (($(".photography-home").length) && (window.innerWidth >= 992)) {
                 smoothScrolling($("#navbar > ul > li > a[href^='#']"), 0);
             } else {
                 smoothScrolling($("#navbar > ul > li > a[href^='#']"), 70);
+                smoothScrolling($("#hero-actions  a[href^='#']"), 70);
             }   
 
             sortingGallery();         
