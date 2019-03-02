@@ -9408,6 +9408,7 @@ img {
 .business-partners-section .partners-slider img, .finance-partners-section .partners-slider img, .construction-partners-section .partners-slider img, .seo-partners-section .partners-slider img, .consulting-partners-section .partners-slider img, .agency-partners-section .partners-slider img {
   width: auto;
   display: inline-block;
+  height: 75px;
 }
 
 /*--------------------------------------------------------------
@@ -9644,8 +9645,11 @@ img {
 --------------------------------------------------------------*/
 .finance-services-section {
   padding-bottom: 45px;
-}
 
+}
+.service-type{
+  height: 290px;
+}
 @media (max-width: 991px) {
   .finance-services-section {
     padding-bottom: 25px;
@@ -9800,7 +9804,7 @@ img {
 #2.1	finance-cta
 --------------------------------------------------------------*/
 .finance-cta {
-  background: url("../images/finance-cta-bg.jpg") center center/cover no-repeat fixed;
+  /* background: url("../images/finance-cta-bg.jpg") center center/cover no-repeat fixed; */
   text-align: center;
   padding: 60px 0;
   position: relative;

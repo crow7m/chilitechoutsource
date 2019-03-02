@@ -214,8 +214,8 @@
                                      We can either co-support your existing team or provide a complete support solution built based on your business requirements.
                                 </p> -->
                                 <div class="btns">  
-                                    <a href="#" class="finance-theme-btn">About us</a>
-                                    <a href="#" class="finance-theme-btn-s2">Our Services</a>
+                                    <a href="#about" class="finance-theme-btn">About us</a>
+                                    <a href="#services" class="finance-theme-btn-s2">Our Services</a>
                                 </div>
                             </div>
                         </div>
@@ -243,11 +243,11 @@
                             <div class="grid">
                                 <div class="img-details-link">
                                     <div class="details-link">
-                                        <a href="#">
+                                        <!-- <a href="#">
                                             <i class="fa fa-arrow-right"></i>
-                                        </a>
+                                        </a> -->
                                     </div>
-                                    <img src="assets/images/finance-services/img-1.jpg" alt>
+                                    <img class="service-type" src="assets/images/finance-services/img-1.jpg" alt>
                                 </div>
                                 <div class="service-details">
                                     <h3>Support Services</h3>
@@ -257,11 +257,11 @@
                             <div class="grid">
                                 <div class="img-details-link">
                                     <div class="details-link">
-                                        <a href="#">
+                                        <!-- <a href="#">
                                             <i class="fa fa-arrow-right"></i>
-                                        </a>
+                                        </a> -->
                                     </div>
-                                    <img src="assets/images/finance-services/img-2.jpg" alt>
+                                    <img class="service-type" src="assets/images/finance-services/img-2.jpg" alt>
                                 </div>
                                 <div class="service-details">
                                     <h3>Testing Services</h3>
@@ -271,11 +271,11 @@
                             <div class="grid">
                                 <div class="img-details-link">
                                     <div class="details-link">
-                                        <a href="#">
+                                        <!-- <a href="#">
                                             <i class="fa fa-arrow-right"></i>
-                                        </a>
+                                        </a> -->
                                     </div>
-                                    <img src="assets/images/finance-services/img-3.jpg" alt>
+                                    <img  class="service-type" src="assets/images/finance-services/img-3.jpg" alt>
                                 </div>
                                 <div class="service-details">
                                     <h3>Web Development Services</h3>
@@ -493,7 +493,7 @@
                                         </div>
                                     </div>
                                     <div class="skill">
-                                        <h6>SMM</h6>
+                                        <h6>Testing</h6>
                                         <div class="progress">
                                             <div class="progress-bar" data-percent="92"></div>
                                         </div>
@@ -532,18 +532,18 @@
                                 <li>
                                     <a data-filter="*" href="#" class="current">All</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a data-filter=".business" href="#">Business</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a data-filter=".finance" href="#">Finance</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a data-filter=".consulting" href="#">Consulting</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a data-filter=".events" href="#">Events</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
 
@@ -761,7 +761,7 @@
 
         <!-- start finance-partners-section -->
         <section class="finance-partners-section">
-            <h2 class="hidden">Partners</h2>
+            <h2>Software we use to support our clients</h2>
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
@@ -849,7 +849,7 @@
 
 
         <!-- start finance-newsletter-section -->
-        <section class="finance-newsletter-section">
+        <!-- <section class="finance-newsletter-section">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-8 col-md-7">
@@ -867,8 +867,7 @@
                     <img src="assets/images/business-newsletter-man.png" alt>
                 </div>
             </div>
-            <!-- end contianer -->
-        </section>
+        </section> -->
         <!-- end finance-newsletter-section -->
 
 
@@ -980,7 +979,7 @@
                             <p>Drop us a note and we will get back to you</p>
                         </div>
                         <div class="contact-form">
-                            <form method="post" id="contact-form" class="form row contact-validation-active">
+                            <form id="email-form"  class="form row contact-validation-active">
                                 <div class="col col-sm-6">
                                     <label for="name">Full Name</label>
                                     <input type="text" class="form-control" id="name" name="name">
@@ -994,7 +993,7 @@
                                     <input type="text" class="form-control" id="phone" name="phone">
                                 </div>
                                 <div class="col col-sm-6">
-                                    <label for="business">Business Type</label>
+                                    <label for="business">Service type</label>
                                     <select name="business" id="business" class="form-control">
                                         <option selected disabled>Select one</option>
                                         <option>Support Services</option>
@@ -1004,7 +1003,7 @@
                                     </select>
                                 </div>
                                 <div class="col col-xs-12 submit-btn">
-                                    <button type="submit">Submit</button>
+                                    <button id="submitButton">Submit</button>
                                 </div>
                             </form>
                         </div>
