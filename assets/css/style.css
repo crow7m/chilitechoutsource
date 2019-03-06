@@ -9408,7 +9408,7 @@ img {
 .business-partners-section .partners-slider img, .finance-partners-section .partners-slider img, .construction-partners-section .partners-slider img, .seo-partners-section .partners-slider img, .consulting-partners-section .partners-slider img, .agency-partners-section .partners-slider img {
   width: auto;
   display: inline-block;
-  height: 75px;
+  height: 50px;
 }
 
 /*--------------------------------------------------------------
